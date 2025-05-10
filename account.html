@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>My Account</title>
+</head>
+<body>
+    <div id="header-holder"></div>
+  <h2>Account</h2>
+  <form id="login-form">
+    <h3>Login</h3>
+    <label>Email: <input type="email" required></label><br>
+    <label>Password: <input type="password" required></label><br>
+    <button type="submit">Login</button>
+  </form>
+
+  <form id="register-form">
+    <h3>Register</h3>
+    <label>Name: <input type="text" required></label><br>
+    <label>Email: <input type="email" required></label><br>
+    <label>Password: <input type="password" required></label><br>
+    <button type="submit">Register</button>
+  </form>
+
+  <div id="user-profile" style="display: none;">
+    <h3>Welcome, [User Name]</h3>
+    <p>Email: [email]</p>
+    <p>Address: [user address]</p>
+    <h4>Order History</h4>
+    <ul id="order-history">
+    </ul>
+  </div>
+  <div id="footer-holder"></div>
+  <script>
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("header-holder").innerHTML = data;
+            if (window.location.hash) {
+                const id = window.location.hash.substring(1);
+                const el = document.getElementById(id);
+                if (el) {
+                    el.scrollIntoView({ behavior: "smooth" });
+                }
+            }
+        });
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => document.getElementById("footer-holder").innerHTML = data);
+</script>
+</body>
+</html>

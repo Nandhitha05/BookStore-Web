@@ -1,0 +1,544 @@
+{
+    "books": [
+      {
+        "title": "Fiction Book 1",
+        "genre": "Fiction",
+        "release_date": "2021-12-17",
+        "rating": 4.9,
+        "price": "$12.89",
+        "author": "Jane Wells",
+        "image": "images/fiction1.jpg"
+      },
+      {
+        "title": "Fiction Book 2",
+        "genre": "Fiction",
+        "release_date": "2023-04-16",
+        "rating": 3.9,
+        "price": "$28.91",
+        "author": "Jane Wells",
+        "image": "images/fiction2.jpg"
+      },
+      {
+        "title": "Fiction Book 3",
+        "genre": "Fiction",
+        "release_date": "2022-04-25",
+        "rating": 4.0,
+        "price": "$18.55",
+        "author": "Jane Wells",
+        "image": "images/fiction3.jpg"
+      },
+      {
+        "title": "Fiction Book 4",
+        "genre": "Fiction",
+        "release_date": "2020-09-03",
+        "rating": 3.5,
+        "price": "$26.62",
+        "author": "Jane Wells",
+        "image": "images/fiction4.jpg"
+      },
+      {
+        "title": "Fiction Book 5",
+        "genre": "Fiction",
+        "release_date": "2018-12-04",
+        "rating": 4.2,
+        "price": "$10.09",
+        "author": "Olivia Martin",
+        "image": "images/fiction5.jpg"
+      },
+      {
+        "title": "Fiction Book 6",
+        "genre": "Fiction",
+        "release_date": "2019-12-31",
+        "rating": 3.6,
+        "price": "$20.29",
+        "author": "Olivia Martin",
+        "image": "images/fiction6.jpg"
+      },
+      {
+        "title": "Fiction Book 7",
+        "genre": "Fiction",
+        "release_date": "2024-03-26",
+        "rating": 5.0,
+        "price": "$14.73",
+        "author": "Olivia Martin",
+        "image": "images/fiction7.jpg"
+      },
+      {
+        "title": "Fiction Book 8",
+        "genre": "Fiction",
+        "release_date": "2024-12-22",
+        "rating": 4.9,
+        "price": "$19.26",
+        "author": "Robert Hayes",
+        "image": "images/fiction8.jpg"
+      },
+      {
+        "title": "Fiction Book 9",
+        "genre": "Fiction",
+        "release_date": "2021-10-26",
+        "rating": 5.0,
+        "price": "$29.53",
+        "author": "Nathan Scott",
+        "image": "images/fiction9.jpg"
+      },
+      {
+        "title": "Fiction Book 10",
+        "genre": "Fiction",
+        "release_date": "2022-03-07",
+        "rating": 4.3,
+        "price": "$14.44",
+        "author": "Olivia Martin",
+        "image": "images/fiction10.jpg"
+      },
+      {
+        "title": "Science Fiction Book 1",
+        "genre": "Science Fiction",
+        "release_date": "2018-04-22",
+        "rating": 4.1,
+        "price": "$15.36",
+        "author": "Grace Nolan",
+        "image": "images/sciencefiction1.jpg"
+      },
+      {
+        "title": "Science Fiction Book 2",
+        "genre": "Science Fiction",
+        "release_date": "2024-04-21",
+        "rating": 4.2,
+        "price": "$26.68",
+        "author": "Grace Nolan",
+        "image": "images/sciencefiction2.jpg"
+      },
+      {
+        "title": "Science Fiction Book 3",
+        "genre": "Science Fiction",
+        "release_date": "2020-06-04",
+        "rating": 3.6,
+        "price": "$20.19",
+        "author": "Ethan Clark",
+        "image": "images/sciencefiction3.jpg"
+      },
+      {
+        "title": "Science Fiction Book 4",
+        "genre": "Science Fiction",
+        "release_date": "2020-05-16",
+        "rating": 4.8,
+        "price": "$26.72",
+        "author": "Grace Nolan",
+        "image": "images/sciencefiction4.jpg"
+      },
+      {
+        "title": "Science Fiction Book 5",
+        "genre": "Science Fiction",
+        "release_date": "2022-11-20",
+        "rating": 4.1,
+        "price": "$15.68",
+        "author": "Ava Brooks",
+        "image": "images/sciencefiction5.jpg"
+      },
+      {
+        "title": "Science Fiction Book 6",
+        "genre": "Science Fiction",
+        "release_date": "2020-12-20",
+        "rating": 4.1,
+        "price": "$19.12",
+        "author": "Ava Brooks",
+        "image": "images/sciencefiction6.jpg"
+      },
+      {
+        "title": "Science Fiction Book 7",
+        "genre": "Science Fiction",
+        "release_date": "2021-03-29",
+        "rating": 4.9,
+        "price": "$18.69",
+        "author": "Liam Turner",
+        "image": "images/sciencefiction7.jpg"
+      },
+      {
+        "title": "Science Fiction Book 8",
+        "genre": "Science Fiction",
+        "release_date": "2024-11-27",
+        "rating": 3.7,
+        "price": "$16.22",
+        "author": "Liam Turner",
+        "image": "images/sciencefiction8.jpg"
+      },
+      {
+        "title": "Science Fiction Book 9",
+        "genre": "Science Fiction",
+        "release_date": "2021-07-25",
+        "rating": 4.7,
+        "price": "$10.52",
+        "author": "Ava Brooks",
+        "image": "images/sciencefiction9.jpg"
+      },
+      {
+        "title": "Science Fiction Book 10",
+        "genre": "Science Fiction",
+        "release_date": "2022-04-15",
+        "rating": 5.0,
+        "price": "$16.41",
+        "author": "Grace Nolan",
+        "image": "images/sciencefiction10.jpg"
+      },
+      {
+        "title": "Mystery Book 1",
+        "genre": "Mystery",
+        "release_date": "2023-10-21",
+        "rating": 4.6,
+        "price": "$14.84",
+        "author": "Benjamin Ward",
+        "image": "images/mystery1.jpg"
+      },
+      {
+        "title": "Mystery Book 2",
+        "genre": "Mystery",
+        "release_date": "2019-07-21",
+        "rating": 4.5,
+        "price": "$13.85",
+        "author": "Sophia Price",
+        "image": "images/mystery2.jpg"
+      },
+      {
+        "title": "Mystery Book 3",
+        "genre": "Mystery",
+        "release_date": "2019-06-12",
+        "rating": 5.0,
+        "price": "$26.31",
+        "author": "Lucas Hall",
+        "image": "images/mystery3.jpg"
+      },
+      {
+        "title": "Mystery Book 4",
+        "genre": "Mystery",
+        "release_date": "2020-12-06",
+        "rating": 3.9,
+        "price": "$12.82",
+        "author": "Sophia Price",
+        "image": "images/mystery4.jpg"
+      },
+      {
+        "title": "Mystery Book 5",
+        "genre": "Mystery",
+        "release_date": "2023-07-07",
+        "rating": 4.3,
+        "price": "$28.07",
+        "author": "Benjamin Ward",
+        "image": "images/mystery5.jpg"
+      },
+      {
+        "title": "Mystery Book 6",
+        "genre": "Mystery",
+        "release_date": "2024-06-12",
+        "rating": 3.8,
+        "price": "$10.92",
+        "author": "Chloe Adams",
+        "image": "images/mystery6.jpg"
+      },
+      {
+        "title": "Mystery Book 7",
+        "genre": "Mystery",
+        "release_date": "2019-12-28",
+        "rating": 4.4,
+        "price": "$25.82",
+        "author": "Sophia Price",
+        "image": "images/mystery7.jpg"
+      },
+      {
+        "title": "Mystery Book 8",
+        "genre": "Mystery",
+        "release_date": "2018-09-29",
+        "rating": 3.9,
+        "price": "$19.08",
+        "author": "Emma Jenkins",
+        "image": "images/mystery8.jpg"
+      },
+      {
+        "title": "Mystery Book 9",
+        "genre": "Mystery",
+        "release_date": "2021-07-30",
+        "rating": 3.7,
+        "price": "$11.23",
+        "author": "Chloe Adams",
+        "image": "images/mystery9.jpg"
+      },
+      {
+        "title": "Mystery Book 10",
+        "genre": "Mystery",
+        "release_date": "2019-10-11",
+        "rating": 4.4,
+        "price": "$26.32",
+        "author": "Emma Jenkins",
+        "image": "images/mystery10.jpg"
+      },
+      {
+        "title": "Romance Book 1",
+        "genre": "Romance",
+        "release_date": "2018-05-27",
+        "rating": 4.8,
+        "price": "$29.92",
+        "author": "Amelia Blake",
+        "image": "images/romance1.jpg"
+      },
+      {
+        "title": "Romance Book 2",
+        "genre": "Romance",
+        "release_date": "2023-07-05",
+        "rating": 4.0,
+        "price": "$22.03",
+        "author": "Daniel Ross",
+        "image": "images/romance2.jpg"
+      },
+      {
+        "title": "Romance Book 3",
+        "genre": "Romance",
+        "release_date": "2018-11-17",
+        "rating": 4.5,
+        "price": "$16.46",
+        "author": "Henry Ford",
+        "image": "images/romance3.jpg"
+      },
+      {
+        "title": "Romance Book 4",
+        "genre": "Romance",
+        "release_date": "2024-01-21",
+        "rating": 3.7,
+        "price": "$27.43",
+        "author": "Megan Lane",
+        "image": "images/romance4.jpg"
+      },
+      {
+        "title": "Romance Book 5",
+        "genre": "Romance",
+        "release_date": "2020-03-20",
+        "rating": 4.4,
+        "price": "$19.37",
+        "author": "Henry Ford",
+        "image": "images/romance5.jpg"
+      },
+      {
+        "title": "Romance Book 6",
+        "genre": "Romance",
+        "release_date": "2018-02-15",
+        "rating": 4.6,
+        "price": "$26.35",
+        "author": "Daniel Ross",
+        "image": "images/romance6.jpg"
+      },
+      {
+        "title": "Romance Book 7",
+        "genre": "Romance",
+        "release_date": "2023-12-11",
+        "rating": 3.9,
+        "price": "$17.12",
+        "author": "Daniel Ross",
+        "image": "images/romance7.jpg"
+      },
+      {
+        "title": "Romance Book 8",
+        "genre": "Romance",
+        "release_date": "2022-01-24",
+        "rating": 4.2,
+        "price": "$17.45",
+        "author": "Victoria Knight",
+        "image": "images/romance8.jpg"
+      },
+      {
+        "title": "Romance Book 9",
+        "genre": "Romance",
+        "release_date": "2019-06-12",
+        "rating": 4.4,
+        "price": "$13.32",
+        "author": "Daniel Ross",
+        "image": "images/romance9.jpg"
+      },
+      {
+        "title": "Romance Book 10",
+        "genre": "Romance",
+        "release_date": "2023-03-25",
+        "rating": 4.5,
+        "price": "$27.82",
+        "author": "Megan Lane",
+        "image": "images/romance10.jpg"
+      },
+      {
+        "title": "Fantasy Book 1",
+        "genre": "Fantasy",
+        "release_date": "2018-03-01",
+        "rating": 4.1,
+        "price": "$19.94",
+        "author": "Zachary Wood",
+        "image": "images/fantasy1.jpg"
+      },
+      {
+        "title": "Fantasy Book 2",
+        "genre": "Fantasy",
+        "release_date": "2022-06-28",
+        "rating": 4.5,
+        "price": "$19.76",
+        "author": "Jasper Moore",
+        "image": "images/fantasy2.jpg"
+      },
+      {
+        "title": "Fantasy Book 3",
+        "genre": "Fantasy",
+        "release_date": "2022-11-11",
+        "rating": 4.3,
+        "price": "$28.23",
+        "author": "Zachary Wood",
+        "image": "images/fantasy3.jpg"
+      },
+      {
+        "title": "Fantasy Book 4",
+        "genre": "Fantasy",
+        "release_date": "2022-01-07",
+        "rating": 4.4,
+        "price": "$23.75",
+        "author": "Zachary Wood",
+        "image": "images/fantasy4.jpg"
+      },
+      {
+        "title": "Fantasy Book 5",
+        "genre": "Fantasy",
+        "release_date": "2024-12-15",
+        "rating": 4.4,
+        "price": "$11.5",
+        "author": "Ruby Lewis",
+        "image": "images/fantasy5.jpg"
+      },
+      {
+        "title": "Fantasy Book 6",
+        "genre": "Fantasy",
+        "release_date": "2018-04-15",
+        "rating": 3.6,
+        "price": "$23.44",
+        "author": "Oliver King",
+        "image": "images/fantasy6.jpg"
+      },
+      {
+        "title": "Fantasy Book 7",
+        "genre": "Fantasy",
+        "release_date": "2024-07-23",
+        "rating": 4.3,
+        "price": "$24.69",
+        "author": "Zachary Wood",
+        "image": "images/fantasy7.jpg"
+      },
+      {
+        "title": "Fantasy Book 8",
+        "genre": "Fantasy",
+        "release_date": "2023-09-19",
+        "rating": 3.6,
+        "price": "$11.04",
+        "author": "Zachary Wood",
+        "image": "images/fantasy8.jpg"
+      },
+      {
+        "title": "Fantasy Book 9",
+        "genre": "Fantasy",
+        "release_date": "2024-07-22",
+        "rating": 4.4,
+        "price": "$12.59",
+        "author": "Isla Bennett",
+        "image": "images/fantasy9.jpg"
+      },
+      {
+        "title": "Fantasy Book 10",
+        "genre": "Fantasy",
+        "release_date": "2021-01-13",
+        "rating": 3.7,
+        "price": "$10.22",
+        "author": "Jasper Moore",
+        "image": "images/fantasy10.jpg"
+      },
+      {
+        "title": "Non-Fiction Book 1",
+        "genre": "Non-Fiction",
+        "release_date": "2024-05-05",
+        "rating": 4.4,
+        "price": "$12.69",
+        "author": "Harper Collins",
+        "image": "images/non-fiction1.jpg"
+      },
+      {
+        "title": "Non-Fiction Book 2",
+        "genre": "Non-Fiction",
+        "release_date": "2021-08-11",
+        "rating": 4.8,
+        "price": "$24.44",
+        "author": "Leo Adams",
+        "image": "images/non-fiction2.jpg"
+      },
+      {
+        "title": "Non-Fiction Book 3",
+        "genre": "Non-Fiction",
+        "release_date": "2023-08-09",
+        "rating": 4.0,
+        "price": "$20.48",
+        "author": "Leo Adams",
+        "image": "images/non-fiction3.jpg"
+      },
+      {
+        "title": "Non-Fiction Book 4",
+        "genre": "Non-Fiction",
+        "release_date": "2022-07-08",
+        "rating": 4.9,
+        "price": "$18.15",
+        "author": "Eva Turner",
+        "image": "images/non-fiction4.jpg"
+      },
+      {
+        "title": "Non-Fiction Book 5",
+        "genre": "Non-Fiction",
+        "release_date": "2019-11-10",
+        "rating": 3.8,
+        "price": "$23.99",
+        "author": "Eva Turner",
+        "image": "images/non-fiction5.jpg"
+      },
+      {
+        "title": "Non-Fiction Book 6",
+        "genre": "Non-Fiction",
+        "release_date": "2019-04-23",
+        "rating": 3.8,
+        "price": "$16.48",
+        "author": "Harper Collins",
+        "image": "images/non-fiction6.jpg"
+      },
+      {
+        "title": "Non-Fiction Book 7",
+        "genre": "Non-Fiction",
+        "release_date": "2019-04-21",
+        "rating": 4.7,
+        "price": "$29.96",
+        "author": "Miles Foster",
+        "image": "images/non-fiction7.jpg"
+      },
+      {
+        "title": "Non-Fiction Book 8",
+        "genre": "Non-Fiction",
+        "release_date": "2021-12-27",
+        "rating": 3.6,
+        "price": "$25.83",
+        "author": "Eva Turner",
+        "image": "images/non-fiction8.jpg"
+      },
+      {
+        "title": "Non-Fiction Book 9",
+        "genre": "Non-Fiction",
+        "release_date": "2022-06-06",
+        "rating": 4.1,
+        "price": "$18.15",
+        "author": "Eva Turner",
+        "image": "images/non-fiction9.jpg"
+      },
+      {
+        "title": "Non-Fiction Book 10",
+        "genre": "Non-Fiction",
+        "release_date": "2024-08-15",
+        "rating": 4.7,
+        "price": "$18.39",
+        "author": "Leo Adams",
+        "image": "images/non-fiction10.jpg"
+      }
+    ]
+  }

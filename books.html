@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+</head>
+<body>
+    <div id="header-holder"></div>
+  
+    <div id="book-container"></div>
+  
+    <script>
+      fetch('booklist.json')
+        .then(response => response.json())
+        .then(data => {
+          const container = document.getElementById('book-container');
+          const genreMap = {};
+          data.books.forEach(book => {
+            if (!genreMap[book.genre]) {
+              genreMap[book.genre] = [];
+            }
+            genreMap[book.genre].push(book);
+          });
+          for (const genre in genreMap) {
+            const section = document.createElement('section');
+            section.classList.add('book-genre');
+  
+            section.innerHTML = `<h2>${genre}</h2><div class="book-list"></div>`;
+            const bookList = section.querySelector('.book-list');
+  
+            genreMap[genre].forEach(book => {
+              const bookDiv = document.createElement('div');
+              bookDiv.classList.add('book');
+              bookDiv.innerHTML = `
+                <img src="${book.image}" alt="${book.title}">
+                <dl>
+                  <dt>Title:</dt><dd>${book.title}</dd>
+                  <dt>Author:</dt><dd>${book.author}</dd>
+                  <dt>Release Date:</dt><dd>${book.release_date}</dd>
+                  <dt>Rating:</dt><dd>${book.rating}</dd>
+                  <dt>Price:</dt><dd>${book.price}</dd>
+                </dl>
+              `;
+              bookList.appendChild(bookDiv);
+            });
+  
+            container.appendChild(section);
+          }
+        })
+        .catch(error => {
+          console.error("Failed to load book data:", error);
+        });
+    </script>
+    <div id="footer-holder"></div>
+    <script>
+      fetch('header.html')
+          .then(response => response.text())
+          .then(data => {
+              document.getElementById("header-holder").innerHTML = data;
+              if (window.location.hash) {
+                  const id = window.location.hash.substring(1);
+                  const el = document.getElementById(id);
+                  if (el) {
+                      el.scrollIntoView({ behavior: "smooth" });
+                  }
+              }
+          });
+      fetch('footer.html')
+          .then(response => response.text())
+          .then(data => document.getElementById("footer-holder").innerHTML = data);
+  </script>
+  </body>
+  </html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Tags</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+<div id ="header-holder"> </div>
+<section id="center-body">
+    <hr>
+    <p>Be a premium member to avail special discounts <a href="#">Join Now</a></p>
+    <hr> 
+    <div>
+        <h1>Welcome to the bookverse of Emotions!</h1>
+        <p>Discover your next favorite book from our wide collection!</p>
+        <a href="#month-seller"><button>Explore Us!</button></a>
+    </div>
+</section>
+
+<section id="month-seller">
+    <h2>Best Sellers of the Month</h2>
+    <div class="month-slides">
+        <div class="book-cards">
+            <img src="path/to/image1.jpg" alt="The Silent Patient by Alex Michaelides">
+            <h3>The Silent Patient by Alex Michaelides</h3>
+        </div>
+        <div class="book-cards">
+            <img src="path/to/image2.jpg" alt="Atomic Habits by James Clear">
+            <h3>Atomic Habits by James Clear</h3>
+        </div>
+        <div class="book-cards">
+            <img src="path/to/image3.jpg" alt="Ikigai by Hector Garcia & Francesc Miralles">
+            <h3>Ikigai by Hector Garcia & Francesc Miralles</h3>
+        </div>
+        <div class="book-cards">
+            <img src="path/to/image4.jpg" alt="The Midnight Library by Matt Haig">
+            <h3>The Midnight Library by Matt Haig</h3>
+        </div>
+        <div class="book-cards">
+            <img src="path/to/image5.jpg" alt="The Love Hypothesis by Ali Hazelwood">
+            <h3>The Love Hypothesis by Ali Hazelwood</h3>
+        </div>
+    </div>
+</section>
+
+<section id="week-trend">
+    <h2>Pick of the Week: Stories That Make Your Valentine's Love Extra Special!</h2>
+    <div class="week-special">
+        <img src="path/to/image6.jpg" alt="Write Me A Love Story">
+        <h3>Write Me A Love Story by Ravinder Singh</h3>
+    </div>
+    <div class="week-special">
+        <img src="path/to/image7.jpg" alt="It Ends With Us">
+        <h3>It Ends With Us by Colleen Hoover</h3>
+    </div>
+    <div class="week-special">
+        <img src="path/to/image8.jpg" alt="Every Summer After">
+        <h3>Every Summer After by Carley Fortune</h3> <!-- Corrected author -->
+    </div>
+    <div class="week-special">
+        <img src="path/to/image9.jpg" alt="You Are All I Need">
+        <h3>You Are All I Need by Ravinder Singh</h3>
+    </div>
+    <div class="week-special">
+        <img src="path/to/image10.jpg" alt="Me Before You">
+        <h3>Me Before You by Jojo Moyes</h3>
+    </div>
+</section>
+
+<section id="offers">
+  <hr>
+  <p>"Unlock magical deals and limited-time discounts — because every great story deserves a great price!"</p>
+  <hr>
+  <div class="special-offer">
+    <img src="" alt="The Alchemist by Paulo Coelho">
+    <h3>The Alchemist" by Paulo Coelho</h3>
+  </div>
+  <div class="special-offer">
+    <img src="" alt="Verity" >
+    <h3>"Verity" by Colleen Hoover</h3>
+  </div>
+  <div class="special-offer">
+    <img src="" alt="Sapiens: A Brief History of Humankind">
+    <h3>Sapiens: A Brief History of Humankind" by Yuval Noah Harari</h3>
+  </div>
+</section>
+
+<section id="contact">
+    <div class="contact-box">
+        <div class="mail-box">
+            <form action="#" method="get">
+                <h6>Write Us!</h6>
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email Id" required>
+                <textarea placeholder="Drop your message for us" rows="4" required></textarea>
+                <input type="submit" value="Send">
+            </form>
+        </div>
+        <div class="map-box">
+            <p>Search for the store near you</p>
+            <form action="#" method="get">
+                <input type="text" placeholder="Search location">
+                <button type="submit">Find</button>
+            </form>
+        </div>
+        <div class="social-media">
+            <h4>Follow Us</h4>
+            <ul>
+                <li><a href="https://www.facebook.com/yourstore" target="_blank"><i class="fab fa-facebook"></i> Facebook</a></li>
+                <li><a href="https://www.instagram.com/yourstore" target="_blank"><i class="fab fa-instagram"></i> Instagram</a></li>
+                <li><a href="https://www.twitter.com/yourstore" target="_blank"><i class="fab fa-twitter"></i> X (Twitter)</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+<div id="footer-holder"></div>
+<script>
+    fetch('header.html')
+        .then(response => response.text())
+        .then(data => {
+            document.getElementById("header-holder").innerHTML = data;
+            if (window.location.hash) {
+                const id = window.location.hash.substring(1);
+                const el = document.getElementById(id);
+                if (el) {
+                    el.scrollIntoView({ behavior: "smooth" });
+                }
+            }
+        });
+    fetch('footer.html')
+        .then(response => response.text())
+        .then(data => document.getElementById("footer-holder").innerHTML = data);
+</script>
+
+</body>
+</html>
